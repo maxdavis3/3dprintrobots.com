@@ -1,0 +1,183 @@
+baseURL = "https://3dprintrobots.com/"
+languageCode = "en-us"
+title = "3D Print Robots"
+theme = "printwire"
+
+[params]
+tagline       = "Additive manufacturing for robotics — custom end-effectors, robot structures, soft actuators, and rapid prototyping for automation systems."
+description   = "3D Print Robots covers additive manufacturing in robotics — from DMLS titanium robot joints and custom gripper tooling to soft robotic actuators and rapid iteration of autonomous system components."
+keywords      = "robot 3D printing, robotics AM, gripper 3D print, robot arm manufacturing, soft robotics printing, automation components 3D print, end-effector AM"
+logoEmoji     = "🤖"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#3b82f6"
+colorPrimaryDark  = "#2563eb"
+colorPrimaryLight = "#60a5fa"
+colorBgDark       = "#020612"
+colorBgSection    = "#040a18"
+colorBgCard       = "#070f22"
+colorBgCardHover  = "#0b142e"
+
+fontPrimary   = "Orbitron"
+fontSecondary = "Space+Grotesk"
+
+newsFallbackImages = ["https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"]
+
+heroEyebrow  = "Robotics Additive Manufacturing"
+heroTitle    = "3D Print <em>Robots</em>"
+heroSubtitle = "Additive manufacturing for robotics — custom end-effectors, robot structures, soft actuators, and rapid prototyping for automation systems."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"
+
+overviewTitle   = "Custom Robotics Components by AM"
+overviewText    = "Custom end-effectors in 48 hours. Titanium robot joints at 60% weight savings. Soft pneumatic actuators in silicone. Additive manufacturing compresses robot development cycles from months to days."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsTitle = "Industries We Serve"
+servicesTitle    = "3D Print Robots Services"
+servicesSubtitle = "Additive manufacturing for robotics — custom end-effectors, robot structures, soft actuators, and rapid prototyping for automation systems."
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Additive manufacturing for robotics — custom end-effectors, robot structures, soft actuators, and rapid prototyping for automation systems."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 60
+suffix = "%"
+label  = "Weight Reduction (Ti Robot Parts)"
+
+[[params.stats]]
+count  = 48
+suffix = "hr"
+label  = "End-Effector Turnaround"
+
+[[params.stats]]
+count  = 10
+suffix = "x"
+label  = "Faster Iteration vs Machining"
+
+[[params.stats]]
+count  = 1000
+suffix = "+"
+label  = "Robot Part Geometries Printed"
+
+
+[[params.applications]]
+title       = "Custom End-Effectors"
+description = "Application-specific gripper fingers, tool changers, and end-of-arm tooling in metal and polymer."
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"
+
+[[params.applications]]
+title       = "Lightweight Robot Structure"
+description = "Titanium and AlSi10Mg robot links, brackets, and structural nodes for weight-optimised automation."
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"
+
+[[params.applications]]
+title       = "Soft Robotics"
+description = "Pneumatic soft actuators, compliant grippers, and bio-inspired robot components in TPU and silicone."
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"
+
+[[params.applications]]
+title       = "Rapid Prototyping"
+description = "Fast iteration of autonomous vehicle, drone, and robot components from CAD to functional part in 24 hours."
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "🤖"
+title       = "Metal Robot Components"
+description = "DMLS titanium, AlSi10Mg, and 316L robot structural parts — complex geometries, minimal weight, maximum strength."
+
+[[params.servicesPreview]]
+icon        = "⚙️"
+title       = "Polymer Robotics AM"
+description = "SLS nylon and engineering polymer robot housings, actuator bodies, and mechanism components."
+
+[[params.servicesPreview]]
+icon        = "🦾"
+title       = "Custom Gripper Tooling"
+description = "Application-specific end-effectors — vacuum, magnetic, compliant, and multi-material grippers for any payload."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Soft Actuator Printing"
+description = "Silicone and TPU soft robotic actuators — pneumatic fingers, compliant mechanisms, and bio-inspired locomotion."
+
+
+[[params.services]]
+name        = "Metal Robot Components"
+description = "DMLS titanium, AlSi10Mg, and 316L robot structural parts — complex geometries, minimal weight, maximum strength."
+icon        = "🤖"
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+
+[[params.services]]
+name        = "Polymer Robotics AM"
+description = "SLS nylon and engineering polymer robot housings, actuator bodies, and mechanism components."
+icon        = "⚙️"
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+
+[[params.services]]
+name        = "Custom Gripper Tooling"
+description = "Application-specific end-effectors — vacuum, magnetic, compliant, and multi-material grippers for any payload."
+icon        = "🦾"
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+
+[[params.services]]
+name        = "Soft Actuator Printing"
+description = "Silicone and TPU soft robotic actuators — pneumatic fingers, compliant mechanisms, and bio-inspired locomotion."
+icon        = "🔬"
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "3dprintrobots.com"
+url         = "https://3dprintrobots.com"
+description = "Robotics 3D printing"
+
+[[params.clusterLinks]]
+name        = "dmls3d.com"
+url         = "https://dmls3d.com"
+description = "Metal 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprintcircuitry.com"
+url         = "https://3dprintcircuitry.com"
+description = "Electronics & circuitry AM"
+
+[[params.clusterLinks]]
+name        = "sendcutship.com"
+url         = "https://sendcutship.com"
+description = "Custom manufacturing"
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url  = "/about/"
+weight = 2
+[[menu.main]]
+name = "Articles"
+url  = "/articles/"
+weight = 3
+[[menu.main]]
+name = "Services"
+url  = "/services/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url  = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Advertise"
+url  = "/advertise/"
+weight = 6
